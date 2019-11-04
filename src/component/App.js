@@ -54,9 +54,10 @@ class App extends React.Component {
     shower.on("value", (snapshot) => {
       
       const showerValue = snapshot.val()
-      console.log(showerValue)
+      
     
       this.setState(showerValue)
+      console.log(showerValue)
       
     })
  
